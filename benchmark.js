@@ -50,6 +50,6 @@ console.log('iterative:', time_it(10000, sum_of_terms_iterative, [3000]), 'ms')
 
 
 console.log('1,000 iterations of sum_of_terms(30,000)')
-console.log('recursive: N/A (stack overflow)')
+console.log('recursive:', time_it(1000, sum_of_terms_recursive, [30000]), 'ms')
 console.log('tail_optimized:', time_it(1000, sum_of_terms_tail_optimized, [30000]), 'ms')
 console.log('iterative:', time_it(1000, sum_of_terms_iterative, [30000]), 'ms')
