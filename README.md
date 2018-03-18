@@ -4,7 +4,7 @@ Inspired by [a blog article](http://raganwald.com/2013/03/28/trampolines-in-java
 
 
 These are my results:
-
+```
 10,000 iterations of sum_of_terms(3000)
 recursive: 12618.739999999998 ms
 tail_optimized: 11038.399999999994 ms
@@ -14,3 +14,4 @@ iterative: 18.37999999999738 ms
 recursive: N/A (stack overflow)
 tail_optimized: 11177.24000000002 ms
 iterative: 18.360000000015134 ms
+```
